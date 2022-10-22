@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cal-main">
+        <div class="cal-box">
+            <input type="text" placeholder="0" id="result">
+            <button class="btn" onclick="Clear()">Clear</button>
+            <button class="btn" onclick="del()">Delete</button>
+            <button class="btn" onclick="fun('%')">%</button>
+            <button class="btn" onclick="fun('/')">/</button>
+            <button class="btn-num" onclick="fun('7')">7</button>
+            <button class="btn-num" onclick="fun('8')">8</button>
+            <button class="btn-num" onclick="fun('9')">9</button>
+            <button class="btn" onclick="fun('*')">x</button>
+            <button class="btn-num" onclick="fun('4')">4</button>
+            <button class="btn-num" onclick="fun('5')">5</button>
+            <button class="btn-num" onclick="fun('6')">6</button>
+            <button class="btn" onclick="fun('-')">-</button>
+            <button class="btn-num" onclick="fun('1')">1</button>
+            <button class="btn-num" onclick="fun('2')">2</button>
+            <button class="btn-num" onclick="fun('3')">3</button>
+            <button class="btn" onclick="fun('+')">+</button>
+            <button class="btn-num" onclick="fun('0')">0</button>
+            <button onclick="calculate()" class="btn-equal">=</button>
+        </div>
+    </div>
+     <script src="index.js"></script>
+</body>
+</html>
