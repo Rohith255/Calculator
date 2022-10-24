@@ -29,12 +29,13 @@ body{
    }
 .cal-box input{
     width: 98%;
-    height: 18%;
+    height: 20%;
     border: none;
     outline: none;
     color: rgb(255, 105, 0);
     font-size: 1.4rem;
-    border-radius: 6px;
+    border-radius: 8px;
+    text-align: right;
 }
 .cal-box button{
     width: 22%;
@@ -47,12 +48,21 @@ body{
     font-size: 1rem;
     color:rgb(255, 105, 0);
 }
+.cal-box button:hover {
+    color: rgb(255, 105, 0);
+}
 .cal-box .btn-equal{
     width: 65%;
     background-color: rgb(255, 105, 0);
     color: white;
     font-size: 1.4rem;
     border-radius: 6px;
+}
+.btn-equal:hover {
+    color: white;
+    background-color: white;
+    border: 1px solid rgb(255, 105, 0);
+    transition: 0.25s;
 }
 .btn-num{
     font-size: 1.1rem;
